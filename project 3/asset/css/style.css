@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.sec-1{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../img/background.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+
+h1,h2,h3,span{
+    font-family: "Cormorant Garamond", serif;
+}
+.sec-1 .img{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+    max-height: 100vh;
+}
+.sec-1 .img img{
+    width: 100%;
+    object-fit: cover;
+}
+.sec-1 .main{
+    min-width: 300px;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 320px 0;
+    text-align: center;
+    color: #f4f4f4;
+}
+.sec-1 .main span{
+    font-size: 1.8rem;
+}
+.sec-1 .main h2{
+    font-size: 3.5rem;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.sec-1 .main p{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.sec-1 .main .btn{
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border: none;
+    background-color: #987951;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.sec-1 .main .btn.ord{
+    background-color: rgb(0, 0, 0, 0);
+    color: #f4f4f4;
+    border: solid 1px #f4f4f4;
+}
+.sec-1 .main .btn:hover{
+    background-color: #ffa52f73;
+    color: #fff;
+    border: solid 1px #ffa52f73;
+}
+.sec-2{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #f4f4f4;
+}
+.sec-2 .img{
+    width: calc(50% - 10px);
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.sec-2 .img img{
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+.sec-2 .items{
+    width: calc(50% - 1px);
+    display: inline-block;
+    vertical-align: middle;
+}
+.sec-2 .items .text{
+    text-align: center;
+    max-width: 70%;
+    min-width: 500px;
+}
+.sec-2 .items .text h1{
+    font-size: 2rem;
+}
+.sec-2 .items .list{
+    margin-top: 40px;
+}
+.sec-2 .items .list ul{
+    list-style: none;
+    
+}
+.sec-2 .items .list ul li{
+    margin-bottom: 10px;
+}
+.sec-2 .items .list ul li i {
+    color: #987951;
+    background-color: #d0bf90;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px ;
+}
+.sec-3 .title {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+.sec-3 .cards{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sec-3 .cards .card {
+width: 500px;
+display: inline-block;
+text-align: center;
+margin: 0 10px;
+position: relative;
+overflow: hidden;
+}
+
+.sec-3 .cards .card .image img {
+    width: 100%;
+}
+.sec-3 .cards .card .text{
+    position: absolute;
+    top: 100%;
+    transition: linear 0.3s;
+    -webkit-transition: linear 0.3s;
+    -moz-transition: linear 0.3s;
+    -ms-transition: linear 0.3s;
+    -o-transition: linear 0.3s;
+    height: 100%;
+    background-color: #987951;
+}
+.sec-3 .cards .card .text div{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    -moz-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    line-height: 50px;
+    color: #fff;
+}
+.sec-3 .cards .card:hover .text{
+    top: 50%;
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    -moz-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+}
+
+
+
+
